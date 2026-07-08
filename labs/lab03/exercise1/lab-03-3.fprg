@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="lab-03-3"/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-07-08 12:15:19 PM"/>
+        <attribute name="created" value="VXNlcjtERVNLVE9QLUozOVAxTlQ7MjAyNi0wNy0wODsxMjowNzo0MyBQTTsyNzU3"/>
+        <attribute name="edited" value="VXNlcjtERVNLVE9QLUozOVAxTlQ7MjAyNi0wNy0wODsxMjoxNToxOSBQTTsyOzI4Njg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="kilobyte" type="Real" array="False" size=""/>
+            <input variable="kilobyte"/>
+            <declare name="Megabyte" type="Real" array="False" size=""/>
+            <declare name="Gigabyte" type="Real" array="False" size=""/>
+            <declare name="Terabyte" type="Real" array="False" size=""/>
+            <declare name="Petabyte" type="Real" array="False" size=""/>
+            <assign variable="Megabyte" expression="kilobyte * 0.001"/>
+            <assign variable="Gigabyte" expression="kilobyte *  0.000001"/>
+            <assign variable="Terabyte" expression="kilobyte * 0.000000001"/>
+            <assign variable="Petabyte" expression="kilobyte * 0.000000000001"/>
+            <output expression="Megabyte" newline="True"/>
+            <output expression="Gigabyte" newline="True"/>
+            <output expression="Terabyte" newline="True"/>
+            <output expression="Petabyte" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
