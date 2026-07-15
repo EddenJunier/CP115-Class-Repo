@@ -2,9 +2,9 @@ principal = float(input())
 rate = float(input())
 rate = rate / 100
 time = float(input())
-interest = principal * rate * time
-totalAmount = principal * 1 + rate * time
-monthlyInterest = principal * rate / 12
+interest = (principal * rate * time)
+totalAmount = (principal * (1 + rate * time))
+monthlyInterest = (principal * rate / 12)
 print(interest)
 print(totalAmount)
 print(monthlyInterest)
