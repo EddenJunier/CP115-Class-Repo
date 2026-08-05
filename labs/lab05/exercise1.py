@@ -1,0 +1,13 @@
+name = input("Enter your name: ")
+age = int(input("Enter your age: "))
+course_code = input("Enter your course code: ")
+
+print("\nStudent Information:")
+print(f"Name: {name}")
+print(f"Age: {age}")
+print(f"Course Code: {course_code}")
+print("\n")
+print("Data types of the variables:")
+print(f"Type of 'name': {type(name)}")
+print(f"Type of 'age': {type(age)}")
+print(f"Type of 'course_code': {type(course_code)}")
