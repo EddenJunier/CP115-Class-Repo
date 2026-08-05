@@ -2,7 +2,16 @@
 
 import random
 
-students = ["Alice", "Bob", "Charlie", "Diana", "Eve", "Frank", "Grace", "Hannah", "Ian", "Jack","Fiqry"]
+# Get the total number of items first
+n = int(input("How many students do you wants to enter? (total number of students): "))
+students = []
+
+# Loop n times to collect each item
+for i in range(n):
+    item = input(f"Enter student {i+1}: ")
+    students.append(item)
+
+
 selected_student = random.choice(students)
 print("\n")
 
