@@ -1,4 +1,7 @@
+# This code was writen by Edden Junier Eddwith
+
 # State the required information which is Name and Matric no.
+
 # Store it in the appropriate variable with appropriate name
 Name = "Ahmad Bin Abu"
 Matric_No = "MS2025123499"
