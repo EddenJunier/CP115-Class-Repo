@@ -1,4 +1,4 @@
-# This code was writen by Edden Junier Eddwith
+# This code was writen by Edden Junier
 
 # State the required information which is Name and Matric no.
 
