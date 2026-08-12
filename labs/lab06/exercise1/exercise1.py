@@ -19,13 +19,32 @@ Subtotal = Coffee_total + Muffin_total + Water_total
 tax = (Subtotal/100) * 6
 total = Subtotal + tax
 
+#Print for each line
 print("========== RECEIPT ==========")
-print("Item\t\tPrice\tQty\tTotal")
-print(f"Coffee\t\t${Coffee_price:.2f}\t{Coffee_qty}\t{Coffee_total:.2f}")
-print(f"Muffin\t\t${Muffin_price:.2f}\t{Muffin_qty}\t{Muffin_total:.2f}")
-print(f"Water\t\t${Water_price:.2f}\t{Water_qty}\t{Water_total:.2f}")
+print("Item\tPrice\tQty\tTotal")
+print(f"Coffee\t${Coffee_price:.2f}\t{Coffee_qty}\t{Coffee_total:.2f}")
+print(f"Muffin\t${Muffin_price:.2f}\t{Muffin_qty}\t{Muffin_total:.2f}")
+print(f"Water\t${Water_price:.2f}\t{Water_qty}\t{Water_total:.2f}")
 print("------------------------------")
-print(f"Subtotal\t\t\t{Subtotal:.2f}")
-print(f"Tax (6%)\t\t\t{tax:.2f}")
-print(F"Total\t\t\t\t{total:.2f}")
+print(f"Subtotal\t\t{Subtotal:.2f}")
+print(f"Tax (6%)\t\t{tax:.2f}")
+print(F"Total\t\t\t{total:.2f}")
 print("============================")
+
+print("\n")
+print("\n")
+
+#only 1 print for every line
+
+print(f"""
+========== RECEIPT ==========
+Item\tPrice\tQty\tTotal
+Coffee\t${Coffee_price:.2f}\t{Coffee_qty}\t{Coffee_total:.2f}
+Muffin\t${Muffin_price:.2f}\t{Muffin_qty}\t{Muffin_total:.2f}
+Water\t${Water_price:.2f}\t{Water_qty}\t{Water_total:.2f}
+------------------------------
+Subtotal\t\t{Subtotal:.2f}
+Tax (6%)\t\t{tax:.2f}
+Total\t\t\t{total:.2f}
+============================
+""")
