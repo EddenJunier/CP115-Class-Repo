@@ -35,6 +35,7 @@ print("\n")
 print("\n")
 
 #only 1 print for every line
+#Much simple because not need to type print for each line
 
 print(f"""
 ========== RECEIPT ==========
