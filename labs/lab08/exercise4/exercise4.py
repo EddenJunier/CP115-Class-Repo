@@ -1,5 +1,6 @@
 current_reading = int(input())
 previous_reading = int(input())
+
 consumption = current_reading - previous_reading
 service_charge = 8
 sewerage = 2
