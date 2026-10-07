@@ -1,8 +1,10 @@
 score = int(input())
 total_a = 0
 total_b = 0
+count = 0
 while score != -1 :
-    if score % 2 != 0:
+    count += 1
+    if count % 2 != 0:
         total_a += score
     else:
         total_b += score
@@ -13,7 +15,7 @@ while score != -1 :
         winner = "B"
     else :
         winner = "Tie"
-
+    score = int(input())
 print(total_a)
 print(total_b)
 print(winner)
